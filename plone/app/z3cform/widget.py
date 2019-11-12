@@ -745,7 +745,7 @@ class LinkWidget(z3cform_TextWidget):
             if not subject:
                 url = email
             else:
-                url = '{email}?subject={subject}'.format(
+                url = u'{email}?subject={subject}'.format(
                     email=email,
                     subject=subject,
                 )
