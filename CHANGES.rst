@@ -17,6 +17,8 @@ Bug fixes:
 - Remove aquisition on extraction in relation widget
   This allows early pickeling (for CMFEditions)
   [tomgross]
+- Make umlauts possible for email-subject in LinkWidget
+  [adrianschulz]
 
 3.0.5 (2018-06-19)
 ------------------
